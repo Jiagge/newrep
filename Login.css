@@ -1,0 +1,127 @@
+*{margin: 10; padding:0 }
+body{
+    background: url(userimg.jpg);
+    padding-top: 10vh;
+}
+
+.form-container{
+    width:250px;
+    height: auto;
+    padding: 50px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto
+}
+
+ul.menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: #d3d3d3;
+    
+   
+}
+ul.menu li{
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(39, 66, 30); 
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: #000;
+
+    
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul.menu li a:hover{
+    background-color: rgb(173, 211, 98)
+
+}
+
+ul.menu li ul.menu li{
+    display: none;
+
+}ul.menu li:hover ul.menu li{
+    display: block;
+    
+}
+
+
+ 
+
+
+
+
+user-img{
+    background: url("userimg.jpg");
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+
+
+}
+h2{
+    color:rgb(73, 107, 8);
+}
+
+ul.list{
+list-style-type: none;
+text-align: center;
+
+}
+
+ul.list li{
+    width: 250px;
+    margin-bottom: 15px;
+    
+
+
+}
+ul.list li input{
+    width: 250px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+
+
+}
+
+ul.list li input[type ="button"]{
+    background-color:rgb(170, 218, 83);
+    color: #fff;
+    padding: 10px;
+}
+
+ul.list li:nth-child(5){
+    color: red;
+}
+ul.list li:nth-child(2) :hover{
+    transform: scale(1.06);
+    background: rgb(212, 241, 154);
+    
+}
+ul.list li:nth-child(3) :hover{
+    transform: scale(1.06);
+    background: rgb(213, 236, 167);
+    
+}
+ul.list li:nth-child(4) :hover{
+    transform: scale(1.06);
+    background: rgb(112, 153, 30);
+    
+}
